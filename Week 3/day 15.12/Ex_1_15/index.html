@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bai 1</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <label>Tên d?y d?</label>
+        <input type="text" placeholder="Nh?p tên d?y d? ngu?i mua hàng"><br>
+        <label>Password</label>
+        <input type="password" placeholder="Nh?p password"><br>
+        <label>Email</label>
+        <input type="email" placeholder="Nh?p Email"><br>
+        <label>Ngày sinh</label>
+        <input type="date"><br>
+        <label>M?t hàng mua</label>
+        <input list="products" name="product">
+        <datalist id="products">
+                <option value= "Shoes" >
+                <option value= "Socks" >
+                <option value= "Shirt" >
+                <option value= "Sandals">
+                <option value= "Trousers" >
+            </datalist><br>
+        <label>S? lu?ng mua</label>
+        <input type="number" min="5" max="5"><br>
+        <label>Bán kính v?n chuy?n</label>
+        <input type="range" min="10" max="20">
+        <br><input type="submit" value="Ðang ký">
+    </form>
+</body>
+</html>
