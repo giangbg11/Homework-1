@@ -1,8 +1,5 @@
-.input-sign-in{
-    border: 3px;
-}
-.slog{
-    width: 500px;
-    height: auto;
-    margin-top: 13px auto;
+@media (max-width: 768px){
+	.form-display-none{
+		display: none;
+	}
 }
